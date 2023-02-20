@@ -16,4 +16,5 @@
 - [ ] show current round points and all won rounds near the player names at the end of every round.
 - [ ] square changes color and location every second
 - [ ] show timer, counting time for every round
+- [ ] Player collects points for clicks on square. If no click on square PC gets a point
 - [ ] at the end of game show winners name and a button to restart the game
