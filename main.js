@@ -1,6 +1,7 @@
 "use strict";
 
 /// helpers
+
 function getRandomColor() {
   let red = rand(0, 255);
   let green = rand(0, 255);

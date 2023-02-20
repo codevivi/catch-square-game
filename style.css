@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+h1 {
+  display: block;
+  padding: 3rem;
+  margin: auto;
+  text-align: center;
+}
+button {
+  height: 100px;
+  width: 100px;
+}
+
+form {
+  max-width: 250px;
+  margin: auto;
+}
