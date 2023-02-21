@@ -154,6 +154,7 @@ function Player(name = "PC") {
   this.name = name;
   // this.roundsWon = 0;
   this.totalPoints = 0;
+  /////FIX: nox need to save all rounds to history as using + innerHtml anyway
   this.history = [];
   this.currentRoundPoints = 0;
   this.savePoints = function () {

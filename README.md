@@ -9,6 +9,7 @@
 🌐 **Site published at**: [https://codevivi.github.io/catch-square-game](https://codevivi.github.io/catch-square-game)
 
 📈 **Status**: Code needs formatting, working, but not well tested. Put everything in objects as seemed more readable, bet got overcomplicated mess 🙃
+⚠️ check issues on issues tab
 
 🎯 **Goals:**
 
