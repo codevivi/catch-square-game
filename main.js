@@ -2,8 +2,8 @@
 const game = {
   playerPc: new Player(),
   playerHuman: null,
-  roundSeconds: 5,
-  roundsCount: 5,
+  roundSeconds: 30,
+  roundsCount: 10,
   timerEl: document.querySelector("#timer-counter"),
   humanStatsNameEl: document.querySelector(".human-stats .name"),
   square: {
