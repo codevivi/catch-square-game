@@ -13,7 +13,7 @@
 🎯 **Goals:**
 
 - [x] Player vs PC
-- [x] 10 rounds, every round 30s
+- [x] 10 rounds, every round 30s CURRENTLY 10s for easier testing
 - [x] game winner - player with the most points
 - [x] show current round points and all won rounds near the player names at the end of every round.
 - [x] square changes color and location every second

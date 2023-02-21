@@ -2,7 +2,7 @@
 const game = {
   playerPc: new Player(),
   playerHuman: null,
-  roundSeconds: 30,
+  roundSeconds: 10,
   roundsCount: 10,
   timerEl: document.querySelector("#timer-counter"),
   humanStatsNameEl: document.querySelector(".human-stats .name"),
@@ -30,7 +30,7 @@ const game = {
       this.element.classList.remove("clicked");
     },
     listenForClicks() {
-      this.element.addEventListener("click", () => {
+      this.element.addEventListener("mousedown", () => {
         this.clicked = true;
         this.element.classList.add("clicked");
       });
