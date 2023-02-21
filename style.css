@@ -58,6 +58,14 @@ form {
   position: relative;
   z-index: 9;
 }
+.end-view {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #square {
   position: absolute;
   z-index: 10;
