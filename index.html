@@ -18,14 +18,27 @@
                 <label for="name">Enter your name:</label>
                 <input class="form-control" id="name" name="name" type="text" placeholder="Player name" required minlength="1" maxlength="30">
             </div>
+            <div class="form-group">
+                <label for="seconds">How long one round should take (seconds)?</label>
+                <input class="form-control" id="seconds" name="seconds" type="number" placeholder="Enter seconds" value="30" min="1" max="30">
+            </div>
+            <div class="form-group">
+                <label for="rounds">How many rounds do you want to play?</label>
+                <input class="form-control" id="rounds" name="rounds" type="number" placeholder="rounds" value="10" min="1" max="10">
+            </div>
+
             <button type="submit" class="btn btn-success">Start</button>
         </form>
     </div>
     <div class="view game-view hidden">
-        <div class="timer btn btn-primary"><span id="timer-counter">30</span>s</div>
+        <div id="timer" class="timer btn btn-primary"></div>
         <div id="stage" class="stage">
             <div id="square" class="hidden"></div>
             <div class="round-stats hidden">
+                <div class="game-end-stats hidden">
+                    <h2 class="winner">Winner is : <span class="winner-name">Vilma</span> </h2>
+                    <button id="play-btn" class="btn btn-success" type="button">Play <br> Again</button>
+                </div>
                 <div class="human-stats">
 
                     <h2 class="name"></h2>
@@ -45,10 +58,7 @@
             </div>
         </div>
     </div>
-    <div class="view end-view hidden">
-        <h2 class="winner"><span class="winner-name">Vilma</span> is a winner!</h2>
-        <button id="play-btn" class="btn btn-success" type="button">Play <br> Again</button>
-    </div>
+
 
     <script src="main.js"> </script>
 </body>

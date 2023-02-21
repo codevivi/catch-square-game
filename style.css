@@ -89,3 +89,11 @@ form {
   gap: 5vw;
   text-align: center;
 }
+.pc-stats .round-stats {
+  list-style: none;
+}
+
+.green {
+  color: rgb(15, 204, 15);
+  font-weight: bold;
+}
