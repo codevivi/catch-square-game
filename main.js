@@ -73,7 +73,7 @@ const game = {
       this.timerEl.textContent = this.round.time;
 
       this.round.time--;
-    }, 500);
+    }, 1000);
   },
   updateScore() {
     if (this.square.clicked) {
